@@ -1,6 +1,6 @@
-databricks_account_id   = "827e3e09-89ba-4dd2-9161-a3301d0f21c0"
+databricks_account_id   = "<account_id>"
 azure_resource_group = "sgunity"
-azure_meta_subscription = "3f2e4d32-8e8d-46d6-82bc-5bb8d962328b"
+azure_meta_subscription = "<sub-id>"
 access_connector_name = "sgunityaccessconnector"
 meta_storage_account = "testunity0823"
 meta_storage_account_container = "sandbox"
