@@ -1,0 +1,19 @@
+
+azure_env_subscription = "3f2e4d32-8e8d-46d6-82bc-5bb8d962328b"
+azure_workspace_for_deployment = "sguntiy0823"
+azure_workspace_for_deployment_rg = "sgunity"
+unity_metastore_id = "65181309-4fb3-4f11-a356-407d913b0d6c"
+existing_access_connector_id ="/subscriptions/3f2e4d32-8e8d-46d6-82bc-5bb8d962328b/resourceGroups/sgunity/providers/Microsoft.Databricks/accessConnectors/sgunityaccessconnector"
+azure_workspaces_for_assignment = [
+    #Add workspaces list in format workspace_name:resource_group
+    "sguntiy0823:sgunity",
+
+]
+access_connector_name = "sgunityaccessconnector"
+metastore_owner = "sg_unity_admins"
+current_env = "dev"
+external_locations = [
+    #Add ext locations name  in format ext_location_name:container_name:storage_account_name
+    "dev-location:sandboxdev:testunity0823",
+
+]

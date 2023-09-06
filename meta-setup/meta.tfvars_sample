@@ -1,0 +1,13 @@
+databricks_account_id   = "827e3e09-89ba-4dd2-9161-a3301d0f21c0"
+azure_resource_group = "sgunity"
+azure_meta_subscription = "3f2e4d32-8e8d-46d6-82bc-5bb8d962328b"
+access_connector_name = "sgunityaccessconnector"
+meta_storage_account = "testunity0823"
+meta_storage_account_container = "sandbox"
+unity_metastore_name = "sgunity0823uks"
+metastore_owner = "sg_unity_admins"
+metastore_region = "uksouth"
+meta_storage_account_rg = "sgunity"
+access_connector_rg = "sgunity"
+existing_access_connector_id =""
+access_connector_exist = false
