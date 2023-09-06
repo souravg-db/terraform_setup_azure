@@ -24,6 +24,7 @@ Please efer to variables file and required values. User can refer to dev.tfvars 
 `terraform validate` - To validate terraform config <br>
 `terraform workspace new <workspace-name> ` - To create new workspace <br>
 *It is recommended to create one workspace per env. It helps to keep the states of workspaces isolated* <br>
+`terraform plan --var-file=<path-of-var-file>` - To run terraform plan <br>
 `terraform apply --var-file=<path-of-var-file>` - To deploy resources <br>
 `terraform destroy --var-file=<path-of-var-file>` - To destroy resources <br>
 `terraform refresh --var-file=<path-of-var-file>` - To refresh state  <br>
